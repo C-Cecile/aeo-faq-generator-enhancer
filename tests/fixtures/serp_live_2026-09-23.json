@@ -1,0 +1,184 @@
+{
+ "status_code": 20000,
+ "cost": 0.0038,
+ "tasks": [
+  {
+   "status_code": 20000,
+   "result": [
+    {
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "asynchronous_ai_overview": false,
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "The National Council on Aging (NCOA)",
+         "domain": "www.ncoa.org",
+         "url": "https://www.ncoa.org/article/how-much-do-walk-in-tubs-cost/",
+         "title": "Understanding the Cost of Walk In Tubs",
+         "text": "Key Takeaways. Getting into and out of the tub or shower can become more challenging as we age. Walk-in tubs can help us continue ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "KOHLER Walk-In Bath",
+         "domain": "www.kohlerwalkinbath.com",
+         "url": "https://www.kohlerwalkinbath.com/price-cost/",
+         "title": "Price Guide: How Much Does a Walk-In Tub Remodel Cost?",
+         "text": "Table_title: Walk-In Tub Cost Breakdown Table_content: | Cost Consideration | Cost | Details | | --- | --- | --- | | Walk-In Tub O..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Mad City Windows & Baths",
+         "domain": "madcitywindows.com",
+         "url": "https://madcitywindows.com/blog/walk-in-tubs-cost/",
+         "title": "How Much Do Walk-In Tubs Cost? 2026 Price Guide",
+         "text": "What is the average cost of a walk-in tub installed? The total installed cost typically falls between $9,500 and $28,000, combinin..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Safe Step Walk-In Tub",
+         "domain": "www.safesteptub.com",
+         "url": "https://www.safesteptub.com/pricing/",
+         "title": "How Much Does a Walk-In Tub Cost in 2026?",
+         "text": "What is the Price of a Safe Step Walk-In Tub? Safe Step Walk-In Tubs typically cost $10,000 to $26,000 fully-installed, depending ..."
+        }
+       ]
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "url": "https://www.homedepot.com/services/c/cost-walk-in-tub-installation/67a61682f",
+       "title": "Walk-In Tub Installation Cost Guide",
+       "description": "On average, installing a new walk-in bathtub starts around $12,500 and varies depending on the product, installation materials and labor.",
+       "domain": "www.homedepot.com"
+      },
+      {
+       "type": "people_also_ask",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]",
+       "items": [
+        {
+         "type": "people_also_ask_element",
+         "title": "Will Medicare pay for a walk-in tub?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "What are the disadvantages of a walk-in tub?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "Are walk-in tubs worth the money?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        },
+        {
+         "type": "people_also_ask_element",
+         "title": "How to get a free walk-in shower for seniors?",
+         "seed_question": null,
+         "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+         "expanded_element": [
+          {
+           "type": "people_also_ask_ai_overview_expanded_element",
+           "items": null,
+           "references": null,
+           "asynchronous_ai_overview": true
+          }
+         ]
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "url": "https://www.reddit.com/r/BathroomRemodeling/comments/1rd0f85/whats_a_fair_walk_in_tub_installation_cost_in/",
+       "title": "what's a fair walk in tub installation cost in 2026 these days?",
+       "description": "Basic is int he range of $3K to $6K. the 10-15k range for local contractor is helpful. You can buy a tub cut out for under $500",
+       "domain": "www.reddit.com"
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "url": "https://www.facebook.com/groups/AskCalgarians/posts/1636428433798165/",
+       "title": "What is the estimated cost of installing a walk-in tub ...",
+       "description": "Estimated costs range from $5,000 to $10,000 or more, with walk-in tubs having several cons, and some recommend a shower with a built-in seat\u00a0... Read more",
+       "domain": "www.facebook.com"
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 13,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Cost of walk-in tub for seniors",
+        "Walk in tub cost with shower",
+        "Walk in tub cost near me",
+        "Cost of walk-in tub installed",
+        "Walk-in tub cost home Depot"
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 2,
+       "rank_absolute": 26,
+       "page": 2,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Cost of walk-in tub for seniors",
+        "Walk in tub cost with shower",
+        "Walk in tub cost near me",
+        "Cost of walk-in tub installed",
+        "Walk-in tub cost home Depot"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

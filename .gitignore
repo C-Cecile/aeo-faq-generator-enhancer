@@ -1,0 +1,10 @@
+# Local .gitignore so the folder stays safe even when copied out of this repo
+.env
+output/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp.*
+dist/
+# Client AI visibility exports (Profound etc.) — client data, never committed
+citations/
