@@ -149,9 +149,12 @@ def test_helpful_error_when_nothing_configured(monkeypatch, tmp_path):
 
 
 def test_env_candidates_include_tool_dir_and_home():
-    paths = [str(p) for p in env_file_candidates()]
-    assert any(p.endswith("faq-generator/.env") for p in paths)
-    assert any(".dataforseo.env" in p for p in paths)
+    # The tool's own folder, whatever it is called: "faq-generator" in the suite,
+    # the repo name in a standalone clone.
+    tool_env = Path(__file__).resolve().parents[1] / ".env"
+    paths = env_file_candidates()
+    assert paths[0] == tool_env
+    assert any(".dataforseo.env" in str(p) for p in paths)
 
 
 def test_transport_url_building():
