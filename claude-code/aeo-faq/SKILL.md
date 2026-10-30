@@ -248,7 +248,7 @@ before any paid call. Skip only what they already gave in the invocation.
    the dedicated page almost none. If the citation data includes the searches assistants ran
    for the client's prompts ("fan-out" queries), offer the most frequent ones
    as target queries: they are what the assistant actually looked up.
-4. State the plan and the estimated cost (~$0.004 per query) and get a yes
+4. State the plan and the estimated cost (~USD 0.004 per query) and get a yes
    before Step 4. Nothing is charged until then.
 
    Never run more lookups than the queries the user agreed to. Testing extra
@@ -321,7 +321,7 @@ tool with `keyword`, `language_code: "en"`, `location_name` (`"United States"`,
 `items[]` as below, at the top level rather than under `tasks[0].result[0]`.
 Checked 2026-10-22: it returns the PAA questions and organic results, but **no
 `cost` field** and usually no AI Overview `references` — so report cost as the
-~$0.004-per-query estimate, labelled as an estimate, and take gap provenance
+~USD 0.004-per-query estimate, labelled as an estimate, and take gap provenance
 from the top organic domains.
 
 
@@ -364,7 +364,7 @@ France `2250`, Germany `2276`.
 
 `people_also_ask_click_depth` (0–4) expands the PAA box by simulating clicks. `2` is
 a good default. Measured live 2026-09-23: `depth: 20` + `click_depth: 2` charged
-**$0.0038** and returned 9 PAA questions — well under half a cent per keyword.
+**USD 0.0038** and returned 9 PAA questions — well under half a cent per keyword.
 
 ### Response cheatsheet
 
@@ -394,7 +394,7 @@ For every query, count the PAA questions that fit the page (Step 6's
 off-topic test; the second click level often drifts, e.g. into celebrity or
 general how-to questions). If a query returned no PAA
 box, or nothing on-topic, say so with the counts and offer a replacement
-query at ~$0.004, using the same yes rule as Step 2. Don't keep a no-PAA
+query at ~USD 0.004, using the same yes rule as Step 2. Don't keep a no-PAA
 query for its organic results alone; another query's results cover Step 6b.
 If the user declines, carry on with what came back and record the empty
 query in the draft's sources.
@@ -598,7 +598,7 @@ per sentence, in the same order. Then:
   its URL, and add the contradiction to the recommendations. Picking one
   version would publish a claim the client hasn't settled.
 - **Numbers, prices, durations, percentages and credentials** must appear
-  verbatim in a quote. Rounding or rephrasing a figure ("$4,000–$8,000" → "around $6,000")
+  verbatim in a quote. Rounding or rephrasing a figure ("4,000–8,000 a month" → "around 6,000 a month")
   counts as unsupported.
 - **"Ready" means ready with no conditions.** If an answer needs anything
   confirmed first (a figure's source, a page that couldn't be read, a client
@@ -869,7 +869,7 @@ settle the cost before anything else:
    other-language copies. Read each page and suggest one target query — a short
    search phrase, not the headline.
 2. **Show the plan as a table** (page, suggested queries, prompts) and the
-   estimate: ~$0.004 × the number of **distinct** queries (a query shared by
+   estimate: ~USD 0.004 × the number of **distinct** queries (a query shared by
    several pages is looked up once). Say too that Claude usage grows with the
    number of pages: past about 10 pages, suggest splitting into several sessions,
    or the Python CLI's `--plan` / `--batch`, which costs no Claude usage.
@@ -895,3 +895,40 @@ settle the cost before anything else:
   another page's answer at full length competes with it. A short answer that
   links to the home keeps the internal link and the question's coverage on both
   pages without that.
+
+<!-- writing-style:start (synced from seo-audit/core/quality_gate/writing_style.py; edit there) -->
+## Plain, human wording (everything written for people to read)
+
+Write the way a careful consultant writes to a client she knows: plain words,
+specific facts, sentences of different lengths. Text that reads as
+machine-written costs the reader's trust. The list below follows Wikipedia's
+"Signs of AI writing".
+
+- Say what a thing is or does: "is", "has", "shows". Not "serves as", "stands
+  as", "boasts", "represents", "plays a crucial role".
+- Don't inflate importance: no "testament", "pivotal", "crucial", "vital",
+  "landscape", "underscores the importance", "sets the stage", "a key turning
+  point".
+- Avoid these words: delve, tapestry, intricate, interplay, meticulous,
+  robust, seamless, leverage, showcase, foster, bolster, garner, multifaceted,
+  holistic, vibrant, empower, unlock, elevate, streamline, game-changer,
+  valuable insights, align with, resonate with.
+- No trailing "-ing" comment on a sentence (", highlighting the need for...",
+  ", ensuring..."). Make it its own sentence with the evidence, or drop it.
+- No set-ups like "not only X but also Y", "it's not X, it's Y" or "X rather
+  than Y". State the point.
+- Don't group things in threes out of habit. List as many as there are.
+- Don't open sentences with "Additionally", "Furthermore" or "Moreover", and
+  don't close with a summary that repeats what was just said ("In summary",
+  "In conclusion", "Overall").
+- No stock hedges: "it's important to note", "it's worth noting", "based on
+  available information".
+- No vague sources ("experts say", "industry reports show"). Name the source
+  and give the number.
+- No chat lines in a deliverable: "I hope this helps", "Certainly!", "Let me
+  know if you'd like", "Here is a detailed breakdown".
+- Formatting: bold only where a reader would miss something without it; no
+  emoji; headings in sentence case. Prefer short paragraphs to bullet lists
+  whose every item starts with a bold label and a colon. Use a table only
+  when there are several rows to compare.
+<!-- writing-style:end -->
